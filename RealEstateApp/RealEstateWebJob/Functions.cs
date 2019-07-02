@@ -50,14 +50,14 @@ namespace RealEstateWebJob
             try
             {
 
-                string receiver = "babukondaram@gmail.com";
+                string receiver = "babu@gmail.com";
                 string subject = "from SMTP";
-                string senderEmailId = "rambabu2k4@gmail.com";
+                string senderEmailId = "ram@gmail.com";
 
 
                 var senderEmail = new MailAddress(senderEmailId, "gmail");
                 var receiverEmail = new MailAddress(recievermailAddress, "Receiver");
-                var password = "rambabu@1990";
+                var password = "*********";
                 var sub = subject;
                 var body = message;
 
