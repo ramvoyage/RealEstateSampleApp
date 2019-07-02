@@ -1,0 +1,40 @@
+
+<form class="form-horizontal  form-full-width" [formGroup]="realEstateForm" (ngSubmit)="onCrateProperty()">
+  <div>
+    <label class='control-label'>Area: </label>
+
+    <input placeholder="" formControlName="area" autocomplete="off" />
+    <span *ngIf="realEstate.area.errors && realEstate.area.touched">
+      <span *ngIf="realEstate.area.errors.required">
+        Area filed is required
+      </span>
+      <span *ngIf="realEstate.area.maxlength">
+        Area length is greater than 100
+      </span>
+    </span>
+
+  </div>
+
+  <div>
+    <label class='control-label'>Price: </label>
+
+    <input placeholder="" formControlName="price" autocomplete="off" />
+    <span *ngIf="realEstate.price.errors && realEstate.price.touched">
+      <span *ngIf="realEstate.price.errors.required">
+        Price filed is required
+      </span>
+      <!--<span *ngIf="firm.firmName.errors.maxlength">
+        Price length is greater than 80
+      </span>-->
+    </span>
+
+  </div>
+
+  <button color="primary" [disabled]=!realEstateForm.valid>
+    Create  Property
+  </button>
+  <br />
+  <a (click)="gotoList()">Back to List</a>
+
+
+</form>

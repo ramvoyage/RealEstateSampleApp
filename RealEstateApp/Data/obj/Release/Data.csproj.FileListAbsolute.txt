@@ -1,0 +1,12 @@
+C:\Users\srambabu\source\repos\RealEstateApp\Data\bin\Release\Data.dll.config
+C:\Users\srambabu\source\repos\RealEstateApp\Data\bin\Release\Data.dll
+C:\Users\srambabu\source\repos\RealEstateApp\Data\bin\Release\Data.pdb
+C:\Users\srambabu\source\repos\RealEstateApp\Data\bin\Release\EntityFramework.dll
+C:\Users\srambabu\source\repos\RealEstateApp\Data\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\srambabu\source\repos\RealEstateApp\Data\bin\Release\EntityFramework.xml
+C:\Users\srambabu\source\repos\RealEstateApp\Data\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\srambabu\source\repos\RealEstateApp\Data\obj\Release\Data.csprojAssemblyReference.cache
+C:\Users\srambabu\source\repos\RealEstateApp\Data\obj\Release\Data.csproj.CoreCompileInputs.cache
+C:\Users\srambabu\source\repos\RealEstateApp\Data\obj\Release\Data.csproj.CopyComplete
+C:\Users\srambabu\source\repos\RealEstateApp\Data\obj\Release\Data.dll
+C:\Users\srambabu\source\repos\RealEstateApp\Data\obj\Release\Data.pdb
